@@ -36,6 +36,7 @@ Notes on `pwd`, `ls`, `cd` and how unix commands are put together.
 Notes on `cat`, `head`, `grep` and `man`.
 ```{r}
 ####The grep (global search a regular expression and print) command opened up this massive chunk of text and I typed q immediately to quit. 
+##in combination with the grep and man you can search your document for sequences and phrases etc
 ```
 
 
@@ -43,7 +44,6 @@ Notes on `cat`, `head`, `grep` and `man`.
 
 Notes on the fasta and fastq formats.
 ```{r}
- 
-##in combination with the grep and man you can search your document for sequences and phrases etc
+##two common formats for storing sequence info but fasta assumes your data is correct already whereas fastq does a quality score for every base
 ```
 
