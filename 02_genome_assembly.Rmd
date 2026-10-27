@@ -20,16 +20,41 @@ Notes for [Workshop 2](https://mb5370.bioinformatics.guide/workshop2.html). Run 
 ## Redbean assembly
 
 Commands run in `redbean/`.
+```{r}
+##First we had to create working directory/open the redbean directory that already exists 
+##Then we opened a small subset of data to use in this exercise and ran an assembly 
+##It took a few seconds for the assembly to run and load and I accidentally kept clicking enter and it kept generating stuff for me/would update how many contigs and bases there are.
+##Then we reran redbean with higher coverage to learn more about our assembly using the assembly-stats command.
+
+```
+
 
 ## Flye assembly
 
 Commands run in `flye_genome/`.
+```{r}
+##We are triple checking that we have safely made it to the flye_genome by using cd cd .. and pwd commands
+##We made a shell script file to allow the large data a place to run in the background
+##We used the tail commands to see what the shell script/slurm was doing in the background
+##Then we ran an even larger version and we had to wait until it was done running
+
+```
+
 
 ## Assembly graphs with Bandage
+```{r}
+##so we tick the box next to assembly_graph.gfa then download it by clicking the blue gear and exporting then downloading
+##then we loaded the gfa file in bandage and hit draw graph
+```
+
 
 ## Assembly quality with QUAST
 
 Commands run in `quast/`.
+```{r}
+##We use quast to look at assembly quality but first we used the samtools and ln functions to prepare our data. Quast made a folder and in that folder was beautiful graphs of assemblies it was awesome!
+```
+
 
 ## Mystery repeat region (optional)
 
